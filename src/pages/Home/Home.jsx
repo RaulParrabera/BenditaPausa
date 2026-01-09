@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { HeroSection } from "../../styles/HeroSectionStyles.jsx";
-import { AboutUs } from "../../pages/Home/Aboutus.jsx";
-import {NewsletterForm} from "./NewsletterForm.jsx";
 import { ShopCategoriesSection } from "../../pages/Home/ShopCategories.jsx";
-import { FindUs } from "../../pages/Home/FindUs.jsx";
-import { Instagram } from "../../pages/Home/Instagram.jsx";
 
 
 const Home = () => {
@@ -19,24 +15,6 @@ const Home = () => {
       </HeroSection>
 
       <ShopCategoriesSection />
-      <section id="aboutus">
-        <AboutUs />
-      </section>
-
-      {/* NEWSLETTER */}
-      <section className="newsletter-block">
-        <NewsletterForm />
-      </section>
-
-      {/* FINDUS */}
-      <section className="findus-block">
-        <FindUs />
-      </section>
-
-  {/* INSTAGRAM */}
-      <section className="instagram-block">
-        <Instagram />
-      </section>
 
   </div>
 

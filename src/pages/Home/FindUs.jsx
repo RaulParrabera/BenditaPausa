@@ -7,8 +7,15 @@ const FindUs = () => {
       <FindUsTitle>Visita nuestra tienda</FindUsTitle>
       <FindUsDesc>Todas tenemos un vínculo con la lana.</FindUsDesc>
       <FindUsDesc>
-        El conocimiento es poder, y queremos compartirlo contigo. Ven a vernos y te contaremos todo lo que hay detrás de nuestros productos… y quién sabe, quizá también te lleves nuevas ideas para tus proyectos.
-      </FindUsDesc>
+        Bienvenidos a "Bendita Pausa", una tienda cercana, con hilaturas con alma, del campo a tus agujas, cuidadas desde cero, para que cada puntada que des cuente una historia personal.
+        <br/>
+        Trabajamos con hilaturas naturales, mezclas nobles, muchas de ellas teñidas a mano y en pequeñas cantidades, para obtener procesos únicos.
+        <br/>
+        Escogemos marcas de productores nacionales e internacionales, siempre con la misma premisa, el amor, el cuidado y la trazabilidad.
+        <br/>
+        Una oferta variada en hilaturas para cada época del año.
+        Somos un espacio para amantes de la calma, de tocar, de oler, de sentir, de tejer con intención y despertar tus sentidos.
+      </FindUsDesc> 
 
       <FindUsMap>
         <iframe

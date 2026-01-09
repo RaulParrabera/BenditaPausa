@@ -13,30 +13,6 @@ const Header = () => {
     setMenuOpen(false);
   };
 
-  const scrollToContact = (e) => {
-    e.preventDefault();
-    const contactElement = document.getElementById("contacto");
-    if (contactElement) {
-      contactElement.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-    handleNavClick();
-  };
-
-  const scrollToAbout = (e) => {
-    e.preventDefault();
-    const aboutElement = document.getElementById("aboutus");
-    if (aboutElement) {
-      aboutElement.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-    handleNavClick();
-  };
-
   return (
     <HeaderContainer>
       <Nav>
@@ -92,7 +68,7 @@ const Header = () => {
             <NavLink href="/">Productos</NavLink>
           </li>
           <li>
-            <NavLink href="#aboutus" onClick={scrollToAbout}>
+            <NavLink href="/aboutus">
               Conócenos
             </NavLink>
           </li>
@@ -100,8 +76,8 @@ const Header = () => {
             <NavLink href="/talleres">Talleres</NavLink>
           </li>
           <li>
-            <NavLink href="#contacto" onClick={scrollToContact}>
-              Contacto
+            <NavLink href="/findus">
+              Encuéntranos
             </NavLink>
           </li>
 
@@ -123,7 +99,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink href="#aboutus" onClick={scrollToAbout}>
+              <NavLink href="/aboutus" onClick={handleNavClick}>
                 Conócenos
               </NavLink>
             </li>
@@ -133,8 +109,8 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink href="#contacto" onClick={scrollToContact}>
-                Contacto
+              <NavLink href="/findus" onClick={handleNavClick}>
+                Encuéntranos
               </NavLink>
             </li>
           </MobileMenu>

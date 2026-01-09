@@ -12,9 +12,15 @@ const AboutUs = () => {
     <AboutUsSection>
       <h2>Conócenos</h2>
       <h3>
-        Hola, soy <strong>Gisela</strong>. Bienvenida a Bendita Pausa.
+        Soy <strong>Gisela</strong>. La cara visible de Bendita Pausa.
         <br/>
-        En Bendita Puasa acompañamos cada paso del proceso para que la lana con la que tejes sea auténtica, desde la oveja hasta la madeja.
+        Desde siempre me ha gustado crear, tejer. Soy autodidacta, aprendí a tejer con tan solo 5 o 6 añitos, estuve siempre rodeada de lanas, viendo a mi madre tejer y a mi abuela por supuesto!!
+        <br/>
+        Pero sobre todo aprendí de mi madre, quien se ganaba la vida con ello y a quien le debo todo mi aprendizaje y curiosidad.
+        <br/>
+        Tejer para mi es una forma de conectar con mi interior, una terapia, una de respetar mis ritmos de vida y bajar revoluciones, de habitarme.
+        <br/>
+        "Soy de las que madeja en mano crea desde cero"
         <br/>
         Conocemos personalmente a ganaderos, rebaños, lavaderos e hilanderos, y colaboramos mano a mano con ellos desde hace años para ofrecerte un producto de calidad: lana genuina.
       </h3>
