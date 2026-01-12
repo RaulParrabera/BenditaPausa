@@ -9,6 +9,8 @@ export const HeroSection = styled.section`
   padding: 2rem 2rem;     
   text-align: left;
   font-size: 1rem;
+  font-family: 'Brush Script MT', cursive;
+  
 
   @media (min-width: 768px) {
     background-size: cover;
@@ -17,10 +19,9 @@ export const HeroSection = styled.section`
     font-size: 1.8rem;
 }
 
-
-.subheadline {
-  font-weight: 300;
-}
+  h1, h5 {
+    color: #7ECCBA;
+  }
 
 
   button {

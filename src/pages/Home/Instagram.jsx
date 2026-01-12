@@ -27,16 +27,16 @@ const Instagram = () => {
       <InstagramBlock>
         <InstagramContent>
           <InstagramTitle>
-            Últimas publicaciones en Instagram <FaInstagram />
+            Publicaciones de instagram<FaInstagram />
           </InstagramTitle>
 
           <ProfileCard>
             <Avatar
-              src="https://via.placeholder.com/120"
+              src="LogoMOBILE.png"
               alt="Perfil"
             />
             <UserInfo>
-              <Username>@gisela_scarel</Username>
+              <Username>@benditapausa_</Username>
               <Bio>Bienvenidos a mi rincón de creatividad y bienestar ✨</Bio>
             </UserInfo>
           </ProfileCard>
@@ -50,7 +50,7 @@ const Instagram = () => {
           </PostsGrid>
 
           <ViewButton
-            href="https://www.instagram.com/gisela_scarel/?hl=af"
+            href="https://www.instagram.com/benditapausa_/?hl=af"
             target="_blank"
             rel="noopener noreferrer"
           >

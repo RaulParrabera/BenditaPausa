@@ -11,7 +11,6 @@ const Home = () => {
         Descubre <br /> el arte de <br />la pausa
       </h1>
         <h5 className="subheadline">del campo <br />a tus agujas</h5>
-        <button onClick={() => window.location.href = "/tienda"}>Explorar tienda</button>
       </HeroSection>
 
       <ShopCategoriesSection />

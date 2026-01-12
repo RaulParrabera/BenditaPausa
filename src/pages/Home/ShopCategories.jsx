@@ -6,7 +6,7 @@ const categories = [
   { title: "HILATURAS", image: "/Lana.jpg", link: "/tienda/hilaturas" },
   { title: "ACCESORIOS", image: "/Accesorios.jpg", link: "/tienda/accesorios" },
   { title: "TEXTIL", image: "/Textil.jpg", link: "/tienda/textil" },
-  { title: "VIVIR LA LANA", image: "/vivir-la-lana.jpg", link: "/tienda/vivir-la-lana" },
+  { title: "BENDITA FAMILIA", image: "/vivir-la-lana.jpg", link: "/tienda/vivir-la-lana" },
 ];
 
 const messages = [

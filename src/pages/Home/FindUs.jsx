@@ -14,7 +14,7 @@ const FindUs = () => {
         Escogemos marcas de productores nacionales e internacionales, siempre con la misma premisa, el amor, el cuidado y la trazabilidad.
         <br/>
         Una oferta variada en hilaturas para cada época del año.
-        Somos un espacio para amantes de la calma, de tocar, de oler, de sentir, de tejer con intención y despertar tus sentidos.
+        Somos un espacio para amantes de la calma, de tocar, de oler, de sentir, de tejer y con intención de despertar tus sentidos.
       </FindUsDesc> 
 
       <FindUsMap>

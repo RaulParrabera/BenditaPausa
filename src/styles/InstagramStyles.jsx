@@ -115,15 +115,17 @@ export const PostsGrid = styled.div`
 export const PostItem = styled.div`
   position: relative;
   width: 100%;
+  aspect-ratio: 1;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 50%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
   img {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
+    border-radius: 50%;
     transition: transform 0.3s ease, filter 0.3s ease;
   }
 

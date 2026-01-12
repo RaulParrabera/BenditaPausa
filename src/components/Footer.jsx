@@ -1,6 +1,6 @@
 import React from "react";
 import { FooterContainer, FooterContent, FooterSection, SocialIcons } from "./FooterStyles";
-import { FaInstagram, FaPinterest } from "react-icons/fa"; 
+import { FaInstagram } from "react-icons/fa"; 
 
 const Footer = () => {
   return (
@@ -15,18 +15,15 @@ const Footer = () => {
 
         <FooterSection>
           <h4>Contacto</h4>
-          <p>contacto@benditapausa.com</p>
-          <p>+34 123 456 789</p>
+          <p>benditapausatejeril@gmail.com</p>
+          <p>+34 699 80 61 95</p>
         </FooterSection>
 
         <FooterSection>
           <h4>Síguenos</h4>
           <SocialIcons>
-            <a href="https://www.instagram.com/gisela_scarel/?hl=af" target="_blank" rel="noopener noreferrer"  aria-label="Instagram de Bendita Pausa"            > 
+            <a href="https://www.instagram.com/benditapausa_/?hl=af" target="_blank" rel="noopener noreferrer"  aria-label="Instagram de Bendita Pausa"            > 
               <FaInstagram />
-            </a>
-            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest de Bendita Pausa">
-              <FaPinterest />
             </a>
           </SocialIcons>
         </FooterSection>

@@ -22,7 +22,7 @@ const Workshops = () => {
         </div>
         <div className="workshop">
           <h3>Técnicas de Tejido</h3>
-          <p>Perfecciona tu punto y descubre nuevas técnicas creativas.</p>
+          <p>Perfecciona tu técnica de punto o ganchillo o aprende a tejer desde cero.</p>
         </div>
       </div>
     </WorkshopsWrapper>

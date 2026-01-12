@@ -18,7 +18,7 @@ const AboutUs = () => {
         <br/>
         Pero sobre todo aprendí de mi madre, quien se ganaba la vida con ello y a quien le debo todo mi aprendizaje y curiosidad.
         <br/>
-        Tejer para mi es una forma de conectar con mi interior, una terapia, una de respetar mis ritmos de vida y bajar revoluciones, de habitarme.
+        Tejer para mi es una forma de conectar con mi interior, una terapia, una manera de respetar mis ritmos de vida y bajar revoluciones, de habitarme.
         <br/>
         "Soy de las que madeja en mano crea desde cero"
         <br/>
