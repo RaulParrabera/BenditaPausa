@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Layout } from "./Layout";
-import {Home} from "./pages/Home/Home.jsx";
-import { Aboutus } from "./pages/Aboutus/Aboutus.jsx";
+import {Home} from "./pages/home/Home.jsx";
+import { AboutUsPage } from "./pages/aboutUs/AboutUsPage.jsx";
 import { FindUsPage } from "./pages/FindUs/FindUsPage.jsx";
 import { PrivacyPolicy } from "./pages/Privacy/PrivacyPolicy.jsx";
 import { Workshops } from "./pages/About/Workshops.jsx";
@@ -13,7 +13,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="aboutus" element={<Aboutus />} />
+        <Route path="aboutus" element={<AboutUsPage />} />
         <Route path="findus" element={<FindUsPage />} />
         <Route path="politica-privacidad" element={<PrivacyPolicy />} />
         <Route path="comunidad" element={<Community />} />

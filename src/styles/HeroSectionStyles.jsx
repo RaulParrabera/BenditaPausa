@@ -20,7 +20,7 @@ export const HeroSection = styled.section`
 }
 
   h1, h5 {
-    color: #7ECCBA;
+    color: #399987;
   }
 
 

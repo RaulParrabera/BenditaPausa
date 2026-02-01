@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutUsSection, BoxesContainer, Box } from "../../styles/AboutUsStyles.jsx";
+import { NewsletterForm } from "../Home/NewsletterForm.jsx";
 
 const aboutLinks = [
   { title: "NOSOTROS", image: "/About.png", link: "/nosotros" },
@@ -7,7 +8,7 @@ const aboutLinks = [
   { title: "TALLERES", image: "/Workshops.png", link: "/talleres" },
 ];
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <AboutUsSection>
       <h2>Conócenos</h2>
@@ -40,4 +41,17 @@ const AboutUs = () => {
   );
 };
 
-export { AboutUs };
+/*const Aboutus = () => {
+  return (
+    <div>
+      <section id="aboutus">
+        <AboutUs />
+      </section>
+      <section className="newsletter-block">
+        <NewsletterForm />
+      </section>
+    </div>
+  );
+};*/
+
+export { AboutUsPage };

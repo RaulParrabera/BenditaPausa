@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import {HeaderContainer, Nav, LogoImage, MobileLogo, DesktopLogo, NavLinks, NavLink, SearchInput, SearchContainer, BurgerButton, MobileMenu, MobileTopBar, SearchIcon, MobileSearchWrapper, IconsContainer} from "./HeaderStyles";
+import {HeaderContainer, Nav, LogoImage, MobileLogo, DesktopLogo, NavLinks, NavLink, SearchInput, SearchContainer, BurgerButton, MobileMenu, MobileTopBar, SearchIcon, MobileSearchWrapper} from "./HeaderStyles";
 import logoWeb from "/LogoWEB.png";
 import { FaSearch, FaTimes, FaBars } from "react-icons/fa";
-import { FiUser, FiShoppingCart } from "react-icons/fi";
 
 const Header = () => {
   const [query, setQuery] = useState("");

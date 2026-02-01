@@ -24,6 +24,18 @@ const Workshops = () => {
           <h3>Técnicas de Tejido</h3>
           <p>Perfecciona tu técnica de punto o ganchillo o aprende a tejer desde cero.</p>
         </div>
+        <div className="workshop">
+          <h3>Talleres de costura</h3>
+          <p>Aprende a hilar lana con técnicas tradicionales y modernas.</p>
+        </div>
+        <div className="workshop">
+          <h3>Talleres de bordado</h3>
+          <p>Aprende a hilar lana con técnicas tradicionales y modernas.</p>
+        </div>
+        <div className="workshop">
+          <h3>Taller de afieltrado</h3>
+          <p>Aprende a hilar lana con técnicas tradicionales y modernas.</p>
+        </div>
       </div>
     </WorkshopsWrapper>
   );
